@@ -70,7 +70,7 @@ let caseCounterDisplay = document.getElementById("case-counter-display")
 let caseCount = 0
 
 function renderGame() {
-  let randomNum = Math.random() * 1000;
+  let randomNum = Math.random() * 500;
   let percentageDisplay = " " + "(" + Math.round(randomNum) + "%" + ")";
   console.log(percentageDisplay);
 
