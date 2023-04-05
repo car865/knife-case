@@ -3,7 +3,6 @@ let lowTier = [
   "Kohaku",
   "Ktac",
   "luna",
-  "Luxe",
   "Piedra del sol",
   "Prism III",
   "Ruin",
@@ -20,7 +19,6 @@ let lowTierImg = [
   "low/kohaku.png",
   "low/ktac.png",
   "low/luna.png",
-  "low/Luxe.png",
   "low/piedra-del-sol.png",
   "low/prism-3.png",
   "low/ruin.png",
@@ -95,7 +93,7 @@ function renderGame() {
     caseCount++
     caseCounterDisplay.textContent = "Case opened: " + caseCount
 
-  } else if (randomNum < 16) {
+  } else if (randomNum < 20) {
     var midTierVariant = Math.floor(Math.random() * midTier.length);
 
     tierImg.src = "tiers/deluxe-icon.png";
